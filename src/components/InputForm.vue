@@ -1,5 +1,5 @@
 <template>
-   <div :class="styleForm">
+   <div>
       <label>{{ labelname }}</label>
       <b-input></b-input>
    </div>
@@ -10,18 +10,7 @@
 export default {
    name: 'InputForm',
    props: {
-      labelname: { type: String },
-      styleform: {
-         type: String,
-         default: 'column'
-      }
-   },
-   computed: {
-      styleForm() {
-         return {
-            "flex-direction": this.styleform
-         }
-      }
+      labelname: { type: String }
    }
 }
 </script>
@@ -31,11 +20,11 @@ export default {
 
    div {
       display: flex;
-      flex-direction: column;
-      margin-bottom: vw(40);
+      flex-direction: row;
+      margin: 0 vw(30) vw(40) 0;
       
       label {
-         margin: auto vw(30);
+         margin: auto vw(15);
       }
 
       b-input {
