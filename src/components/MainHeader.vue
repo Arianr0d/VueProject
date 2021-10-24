@@ -23,6 +23,7 @@ export default {
 
    header {
       display: flex;
+      position: fixed;
       font-family: 'Lato', sans-serif;
       font-weight: bold;
 
