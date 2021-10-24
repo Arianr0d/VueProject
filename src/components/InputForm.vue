@@ -26,9 +26,5 @@ export default {
       label {
          margin: auto vw(15);
       }
-
-      b-input {
-         align-items: center;
-      }
    }
 </style>

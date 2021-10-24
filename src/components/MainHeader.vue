@@ -58,7 +58,7 @@ export default {
    }
 
    .right_section {
-      padding-left: vw(450);
+      width: vw(1450);
    }
 
 </style>

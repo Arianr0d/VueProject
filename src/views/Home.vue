@@ -28,5 +28,6 @@ export default {
    box-sizing: border-box;
    color: #727272;
    font-weight: 540;
+   font-size: vw(16);
 }
 </style>
